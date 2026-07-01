@@ -1,0 +1,6 @@
+pyproject.toml
+requirements.txt
+.gitignore
+src/diskmaster/main.py
+src/diskmaster/core/scanner.py
+src/diskmaster/core/database/db.py
