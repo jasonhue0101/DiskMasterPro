@@ -1,0 +1,20 @@
+DiskMasterPro/
+|----- .github/
+|     |____ workflows/
+|----- docs/
+|----- scripts/
+|----- src/
+|     |____ diskmaster/
+|          |--- core/
+|          |--- database/
+|          |--- models/
+|          |--- services/
+|          |--- ui/
+|          |--- utils/
+|          |--- __init__.py/
+|----- tests/
+|----- .gitignore
+|----- LICENSE
+|----- README.md
+|----- pyproject.toml
+|_____ requirements.txt
