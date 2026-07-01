@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diskmasterpro"
+version = "0. 1 .0"
+description = "Professional Disk Analyzer and Duplicate File Finder"
+readme = "README.md"
+requires-python = ">=3.12"
+
+authors = [
+    {name = "Jason Hue"}
+]
+
+dependencies = [
+    "blake3>=1.0.5",
+    "SQLAlchemy>=2.0.36",
+    "PySide6>=6.8.0",
+    "rich>=13.9.0",
+    "psutil>=6.1.0",
+    "send2trash>=1.8.3",
+    "watchdog>=6.0.0",
+    "openpyxl>=3.1.5"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "ruff",
+    "black",
+    "mypy"
+]
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
