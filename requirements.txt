@@ -9,5 +9,6 @@ openpyxl>=3.1.5
 
 pytest
 pytest-cov
-blackruff
+black
+ruff
 mypy
