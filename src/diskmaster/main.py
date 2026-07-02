@@ -1,6 +1,6 @@
 from pathlib import Path
 from rich.console import Console
-from diskmaster.diskmaster.core.scanner import Scanner
+from diskmaster.core.scanner import Scanner
 
 console = Console()
 
